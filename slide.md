@@ -17,11 +17,15 @@ style: |
 
 # rocks.nvim
 
+> designed based on the UNIX philosophy: Do one thing well
+
+(quote by rocks.nvim's README)
+
 ## https://github.com/nvim-neorocks/rocks.nvim
 
 ---
 
-# How to Install?
+# How to Plugin Install?
 
 ## Use command (example)
 
@@ -31,10 +35,13 @@ style: |
 
 # rocks.toml
 
+plugin information is written here
 ```toml
-
-
+[plugins]
+"rocks.nvim" = "2.42.1"
+"telescope.nvim" = "scm"
 ```
+
 ---
 
 # Configuration is pain 😢
@@ -56,13 +63,17 @@ style: |
 ```toml
 [config]
 auto_setup = true
-```
-
----
-[config]
-auto_setup = true
 
 [plugins]
 "rocks.nvim" = "2.42.1"
 "telescope.nvim" = "scm"
 "rocks-config.nvim" = "3.0.0"
+```
+
+---
+
+# Happy 🥰
+
+( Screenshot: https://github.com/mimikun/joy-of-no-configurations/issues/7 )
+
+
