@@ -1,5 +1,9 @@
 {
-  "devDependencies": {
-    "@marp-team/marp-cli": "^4.0.3"
-  }
+    "devDependencies": {
+        "@marp-team/marp-cli": "^4.0.3"
+    },
+    "scripts": {
+        "build": "pnpm exec marp --html slide.md",
+        "dev": "pnpm exec marp --server slide.md"
+    }
 }
