@@ -4,6 +4,6 @@
     },
     "scripts": {
         "build": "pnpm exec marp --html slide.md",
-        "dev": "pnpm exec marp --server slide.md"
+        "dev": "pnpm exec marp --server ."
     }
 }
